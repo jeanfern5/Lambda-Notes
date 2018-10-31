@@ -1,7 +1,7 @@
 const express = require('express');
 const helmet = require('helmet');
 
-const knex = require('../db/config.js')
+const knex = require('../db/config.js');
 
 const server = express();
 const port = process.env.PORT || 9000;
